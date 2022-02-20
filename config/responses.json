@@ -1,0 +1,51 @@
+{
+  "auth": {
+    "valid": {
+      "token": "65a2cfa4-aed5-4935-961e-ffb6982ebaba"
+    },
+    "invalid": {
+      "message": "Wrong login or password."
+    }
+  },
+  "users": {
+    "create": {
+      "id": "fd3c231d-847a-4231-bf4e-6b7f785ef688",
+      "amount": 1000
+    },
+    "getAll": [
+      {
+        "id": "d72f7e2d-416c-4112-a455-34f445df3777",
+        "amount": 1000
+      },
+      {
+        "id": "09ffbeaa-bbde-439d-8872-ccc4fdd8da2f",
+        "amount": 1000
+      }
+    ],
+    "delete": {
+      "message": "User deleted."
+    }
+  },
+  "transactions": {
+    "create:": {
+      "id": "742ea67f-f018-4a14-8a23-e44b17cdc2ee",
+      "from": "aac92fb0-a606-4a42-84d6-a412077f42f3",
+      "to": "73e4f227-e2e1-489e-b7d7-9f12e62a17ff",
+      "amount": 100
+    },
+    "getAll": [
+      {
+        "id": "742ea67f-f018-1000-8a23-e44b17cdc2ee",
+        "from": "aac92fb0-a606-4a42-84d6-a412077f42f3",
+        "to": "73e4f227-e2e1-489e-b7d7-9f12e62a17ff",
+        "amount": 100
+      },
+      {
+        "id": "742ea67f-f018-5000-8a23-e44b17cdc2ee",
+        "from": "aac92fb0-a606-4a42-84d6-a412077f42f3",
+        "to": "73e4f227-e2e1-489e-b7d7-9f12e62a17ff",
+        "amount": 100
+      }
+    ]
+  }
+}
