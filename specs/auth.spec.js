@@ -2,7 +2,6 @@ import {expect} from 'chai';
 import AuthHelper from '../helpers/auth.helper';
 
 describe('Auth', function() {
-     // Where did PROCESS come from? process from package DOTENV
 
     let authHelper = new AuthHelper();
 
