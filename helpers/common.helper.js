@@ -2,4 +2,8 @@ function getRandomItem(array) {
     return array[Math.floor(Math.random() * array.length)];
 }
 
-export { getRandomItem };
+function getRandomNumber (number) {
+    return Math.floor(Math.random() * number);
+}
+
+export { getRandomItem, getRandomNumber };
