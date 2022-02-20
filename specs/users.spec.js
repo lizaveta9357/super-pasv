@@ -59,15 +59,15 @@ describe('Users', function(){
             expect(userHelper.response.statusCode).to.eq(200)
         })
 
-        it('response body contains list of at least 3 users', function() {
+        it('response body contains list of at least 3 items', function() {
             expect(userHelper.response.body.length).to.be.at.least(3)
         })
 
-        it('random user id response body contains user if', function() {
+        it('random user response body contains user id', function() {
             expect(getRandomItem(userHelper.response.body).id).not.to.be.undefined
         })
 
-        it('response body contains initial amount', function() {
+        it('random user response body contains initial amount', function() {
             expect(getRandomItem(userHelper.response.body).amount).not.to.be.undefined
         })
     })
@@ -89,5 +89,3 @@ describe('Users', function(){
     })
 
 })
-
-export default UsersHelper

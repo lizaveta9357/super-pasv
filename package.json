@@ -19,5 +19,8 @@
     "dotenv": "^16.0.0",
     "mocha": "^9.2.0",
     "supertest": "^6.2.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
